@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/clinica/clinica.css">
+    <title>Clínica Irmãs Jerez</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary nav-jerez">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html"><img src="./assets/global-assets/logo.png" alt="" width="160px" href="./index.html"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="./clinica.html">Clínica</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./profissionais.html">Profissionais</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="./tratamento-corporal.html">Tratamento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./fale-conosco.html">Fale conosco</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid jumbotron">
+        <div class="d-flex justify-content-center mt-4">
+            <div>
+                <h2 class="chamada text-center">Beleza com saúde</h2>
+                <h1 class="subtitulo-chamada text-center">e naturalidade!</h1>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class="line-jumbotron d-flex justify-content-end">
+                <img src="./assets/home/whatsapp-button.png" alt="" width="4%" class="img-whatsapp"
+                    onclick="comecarAtendimento()">
+                <button type="button" class="btn btn-primary btn-whatsapp" onclick="comecarAtendimento()">Comece o seu
+                    atendimento através do
+                    whatsapp!</button>
+            </div>
+        </div>
+        <div class="w-100 d-flex justify-content-center mt-3">
+            <img src="./assets/global-assets/logo-reduzido.png" alt="" width="2.4%">
+        </div>
+    </div>
+    <div class="container">
+        <div class="my-4 d-flex ms-5 ps-5">
+            <img src="./assets/global-assets/logo-reduzido-colorido.png" alt="">
+            <div class="mt-3 ms-4">
+                <h3 class="titulo-clinica">Nossa</h3>
+                <h4 class="subtitulo-clinica">Clínica</h4>
+            </div>
+        </div>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/clinica/carrossel/carrossel-1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/clinica/carrossel/carrossel-1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/clinica/carrossel/carrossel-1.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="px-5 my-4">
+            <p class="text-futu">Na Clínica Jerez, valorizamos sua beleza única e autêntica. Contamos com tecnologias e
+                tratamentos de última geração, e nossa equipe altamente qualificada está sempre atualizada para oferecer
+                o
+                melhor atendimento e experiência para sua melhor versão. Nosso compromisso é ajudá-lo a alcançar uma
+                pele
+                saudável e radiante, e acreditamos que você deve sentir-se confiante e feliz consigo mesmo. </p>
+        </div>
+    </div>
+    <div class="container carrossel-aparelhos pt-5">
+        <h1 class="titulo-aparelhos text-center mb-5">Principais Aparelhos</h1>
+        <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card-wrapper container-sm d-flex  justify-content-around">
+                        <div class="card  " style="width: 18rem;">
+                            <img src="./assets/clinica/aparelhos/aparelho-1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Clatuu</h5>
+                                <div class="d-flex">
+                                    <span class="aparelho-facial p-2 rounded-pill w-25 text-center">Facial</span>
+                                    <span class="aparelho-corporal ms-2 p-2 rounded-pill text-center">Corporal</span>
+                                </div>
+                                <p class="my-4">Tecnologia para gordura localizada através da criolipólise.</p>
+                            </div>
+                        </div>
+                        <div class="card  " style="width: 18rem;">
+                            <img src="./assets/clinica/aparelhos/aparelho-2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Emsculpt</h5>
+                                <div class="d-flex">
+                                    <span class="aparelho-facial p-2 rounded-pill w-25 text-center">Facial</span>
+                                </div>
+                                <p class="my-4">Tecnologia para hipertrofia muscular e diminuição da diástase.
+                                    Tecnologia exclusiva Hifem (campo eletromagnético intenso focado).</p>
+                            </div>
+                        </div>
+                        <div class="card  " style="width: 18rem;">
+                            <img src="./assets/clinica/aparelhos/aparelho-3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Exillis Ultra</h5>
+                                <div class="d-flex">
+                                    <span class="aparelho-facial p-2 rounded-pill w-25 text-center">Facial</span>
+                                    <span class="aparelho-corporal ms-2 p-2 rounded-pill text-center">Corporal</span>
+                                </div>
+                                <p class="my-4">Tecnologia de radiofrequência monopolar para flacidez e gordura
+                                    localizada, melhora do contorno corporal e para o rejuvenescimento íntimo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card-wrapper container-sm d-flex   justify-content-around">
+                        <div class="card  " style="width: 18rem;">
+                            <img src="./assets/clinica/aparelhos/aparelho-4.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Fotona Starwalker</h5>
+                                <div class="d-flex">
+                                    <span class="aparelho-facial p-2 rounded-pill w-25 text-center">Facial</span>
+                                    <span class="aparelho-corporal ms-2 p-2 rounded-pill text-center">Corporal</span>
+                                </div>
+                                <p class="my-4">Laser de nanosegundo e picosegundo, com resultados únicos para melasma e
+                                    remoção de tatuagem. Opção de rejuvenescimento à frio com ponteira exclusiva
+                                    Fractat.</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="./assets/clinica/aparelhos/aparelho-5.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Ultraformer MPT</h5>
+                                <div class="d-flex">
+                                    <span class="aparelho-facial p-2 rounded-pill w-25 text-center">Facial</span>
+                                    <span class="aparelho-corporal ms-2 p-2 rounded-pill text-center">Corporal</span>
+                                </div>
+                                <p class="my-4">Tecnologia não invasiva de Ultrassom micro e macro focado para estímulo de colágeno profundo e tratamento de gordura localizada.</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="./assets/clinica/aparelhos/aparelho-6.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Vanquish</h5>
+                                <div class="d-flex">
+                                    <span class="aparelho-corporal ms-2 p-2 rounded-pill text-center">Corporal</span>
+                                </div>
+                                <p class="my-4">Tratamento com radiofrequência seletiva para gordura abdominal.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid jumbotron3 mt-5">
+        <div class="row">
+            <div class="w-100 d-flex justify-content-end pe-5">
+                <div class="card me-5">
+                    <div class="bg-card p-1 d-flex m-0">
+                        <img src="./assets/global-assets/logo-circular.png" alt="" height="20%" class="mx-3">
+                        <h5 class="titulo-card-footer mt-3">Fale conosco</h5>
+                    </div>
+                    <div class="card-body px-4">
+                        <input type="text" name="nomeCompleto" id="nomeCompleto" class="input-nome py-3"
+                            placeholder="Nome Completo" onfocus="this.placeholder = ''"
+                            onblur="this.placeholder = 'Nome Completo'">
+                        <input type="text" name="email" id="email" class="input-nome py-3" placeholder="E-mail"
+                            onfocus="this.placeholder = ''" onblur="this.placeholder = 'E-mail'">
+                        <input type="text" name="telefone" id="telefone" class="input-nome py-3" placeholder="Celular"
+                            onfocus="this.placeholder = ''" onblur="this.placeholder = 'Celular'">
+                        <input type="text" name="duvida" id="duvida" class="input-nome py-3" placeholder="Mensagem"
+                            onfocus="this.placeholder = ''" onblur="this.placeholder = 'Mensagem'">
+                        <button class="btn btn-footer w-100 mt-3 p-2" onclick="enviarWhatsApp()">
+                            Enviar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-footer-infos">
+        <div class="container">
+            <div class="d-flex justify-content-center py-5">
+                <img src="./assets/global-assets/logo2.png" width="25%" alt="">
+            </div>
+            <div class="row my-4">
+                <div class="col-md-3">
+                    <b class="text-white titulo-footer mb-2">Endereço</b>
+                    <p class="text-white titulo-footer mb-2 mt-2">Av. Copacabana, 112</p>
+                    <p class="text-white titulo-footer mb-2">Sala 701 - CEP 06472-001</p>
+                    <p class="text-white titulo-footer mb-2">Barueri, São Paulo - SP.</p>
+                </div>
+                <div class="col-md-3">
+                    <b class="text-white titulo-footer mb-2">Contato</b>
+                    <p class="text-white titulo-footer mb-2 mt-2">(011) 2970-1900</p>
+                    <p class="text-white titulo-footer mb-2">atendimento@clinicajerez.com.br</p>
+                    <div class="d-flex">
+                        <img src="./assets/home/instagram-icon.png" alt="" class="me-2">
+                        <img src="./assets/home/tiktok-icon.png" alt="" class="me-2">
+                        <img src="./assets/home/youtube-icon.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <b class="text-white titulo-footer">Atendimento</b>
+                    <p class="text-white titulo-footer mb-2 mt-2">De segunda a sexta-feira </p>
+                    <p class="text-white titulo-footer mb-2">das 08h até 20h</p>
+                </div>
+                <div class="col-md-3">
+                    <b class="text-white titulo-footer">Responsável técnica</b>+
+                    <p class="text-white titulo-footer mb-2 mt-2">Dra. Tatiana Jerez</p>
+                    <p class="text-white titulo-footer mb-2">RQE 35.054 | CRM 116.926</p>
+                </div>
+            </div>
+        </div>
+        <div class="w-100 footer-bottom p-3">
+            <p class="text-white text-center">© 2024 Clínica Jerez – Dermatologia em Alphaville – Dermatologia Clínica, Pediátrica, Cosmiátrica e Cirúrgica. - Todos os direitos reservados</p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+<script>
+    function enviarWhatsApp() {
+        const nomeCompleto = document.getElementById('nomeCompleto').value;
+        const email = document.getElementById('email').value;
+        const telefone = document.getElementById('telefone').value;
+        const duvida = document.getElementById('duvida').value;
+
+        const mensagem = `Olá, meu nome é ${nomeCompleto}, cheguei aqui através do site e estou interessado(a) em saber mais sobre os serviços da clínica. Aqui estão meus detalhes:
+
+    • Telefone: ${telefone}
+    • E-mail: ${email}
+    Tenho a seguinte dúvida: ${duvida}
+    Aguardo o retorno. Obrigado(a)!`;
+
+        const whatsappNumber = '11960625408';
+        const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(mensagem)}`;
+        window.open(url, '_blank');
+    }
+
+    function comecarAtendimento() {
+        const mensagem = `Olá! Cheguei aqui através do site e estou interessado(a) nos serviços da clínica e gostaria de obter mais informações. Podem me ajudar?`;
+        const whatsappNumber = '11960625408';
+        const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(mensagem)}`;
+        window.open(url, '_blank');
+    }
+</script>

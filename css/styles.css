@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Quasimoda;
+    src: url('../fonts/quasimoda-regular.otf');
+}
+@font-face {
+    font-family: FutuHV;
+    src: url('../fonts/futuhv.ttf');
+}
+@font-face {
+    font-family: ScotchDisplay;
+    src: url('../fonts/scotchdisplay-medium.ttf');
+}
+@font-face {
+    font-family: FutuRegular;
+    src: url('../fonts/futuran.ttf');
+}
+@font-face {
+    font-family: FutuIta;
+    src: url('../fonts/futurami.ttf');
+}
+@font-face {
+    font-family: FutuM;
+    src: url('../fonts/futuram.ttf');
+}
+.bg-footer-infos{
+    background-color: #B35F54;
+}
+.text-futu{
+    font-family: FutuRegular;
+    font-size: 1.1em;
+    text-align: justify;
+    color: #2C3B39;
+}
+.text-futu-no-justify{
+    font-family: FutuRegular;
+    font-size: 1.1em;
+    color: #2C3B39;
+}
+.card{
+    border-radius: 0 !important;
+}
+::placeholder {
+    font-family: "FutuIta", sans-serif;
+    font-size: 1.2em;
+    color: #6D6D6D !important;
+}
+.btn-footer:hover{
+    background-color: #978f81 !important;
+    color: white;
+}

@@ -1,0 +1,115 @@
+.jumbotron {
+    height: 37rem;
+    background-image: url('../../assets/clinica/background-jumbotron.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 13rem;
+}
+.line-jumbotron {
+    border-bottom: 2px solid white;
+    width: 85%;
+    margin-top: 2.5em;
+    cursor: pointer;
+}
+
+.btn-jumbotron {
+    background-color: transparent !important;
+    border: 2px white solid !important;
+    height: 3em;
+    font-size: 1.8em;
+    padding: 0.0em !important;
+    font-family: 'FutuHV';
+    text-transform: uppercase;
+    width: 33%;
+}
+
+.btn-whatsapp {
+    width: 20%;
+    background-color: #BCB19D;
+    border: 5px solid white;
+    border-radius: 25px 0 25px 25px;
+    position: absolute;
+    z-index: 999;
+    margin-top: -3.2em;
+    font-size: 1.1em;
+}
+.btn-whatsapp:hover {
+    background-color: #787165;
+    border: 5px solid white;
+}
+
+.img-whatsapp {
+    position: absolute;
+    z-index: 999;
+    margin-top: -7.5rem;
+    cursor: pointer;
+}
+.chamada{
+    font-family: "FutuIta";
+    font-size: 2em;
+    color: white;
+}
+.subtitulo-chamada{
+    font-family: "ScotchDisplay";
+    font-size: 3em;
+    color: white;
+}
+.jumbotron3 {
+    height: 50rem;
+    background-image: url("../../assets/home/backgroud-jumbotrom-3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 15rem;
+  }
+.titulo-card-footer {
+    font-family: ScotchDisplay;
+    font-size: 3em;
+    color: white;
+}
+.input-nome {
+    width: 100%;
+    position: relative;
+    font-size: 16px;
+    color: #5b5b5b;
+    border: 2px #B8B09D solid;
+    padding: 10px 10px 10px 0px;
+    box-sizing: content-box;
+    z-index: 2;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.input-nome:focus {
+    border: 2px #B35F54 solid;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.bg-footer-infos{
+    background-color: #B35F54;
+}
+.titulo-footer {
+    font-family: FutuM;
+}
+.footer-bottom{
+    box-shadow: 0px -16px 32px -7px rgba(0,0,0,0.1);
+    background-color: #B35F54;
+}
+.btn-footer{
+    background-color: #B8B09D;
+    color: white;
+    border-radius: 5px !important;
+    font-size: 1.5em;
+    font-family: 'FutuHV';
+}
+.titulo-card-footer {
+    font-family: ScotchDisplay;
+    font-size: 3em;
+    color: white;
+}
+.bg-card {
+    background-color: #B8B09D !important;
+}

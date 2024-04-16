@@ -1,0 +1,45 @@
+.bg-footer-infos{
+    background-color: #B35F54;
+}
+.titulo-footer {
+    font-family: FutuM;
+}
+.footer-bottom{
+    box-shadow: 0px -16px 32px -7px rgba(0,0,0,0.1);
+    background-color: #B35F54;
+}
+.jumbotron {
+    height: 7rem;
+    background-image: url("../../assets/tratamentos/tratamento-corporal/jumbotron1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 1rem;
+  }
+  .subtitulo-chamada{
+    font-family: "ScotchDisplay";
+    font-size: 3em;
+    color: white;
+}
+.accordion-button:not(.collapsed) {
+    color: white !important;
+    background-color: #B35F54;
+}
+.accordion-item{
+    border: 0px 0px 2px 0px solid #B8B09D !important;
+}
+.accordion-item:focus{
+    border: 0 !important;
+}
+.aparelho-facial{
+    background-color: #b35f54;
+    color: white;
+}
+.aparelho-corporal{
+    background-color: #E8E8E0;
+    color: #B35F54;
+}
+.accordion-button{
+    background-color: #b35f54 !important;
+    color: white;
+}
