@@ -172,3 +172,13 @@
     height: 11em;
   }
 }
+@media (min-width: 360px) {
+  .card .card-img-top {
+    height: 11em;
+  }
+}
+@media (max-width: 726px) {
+  .card-wrapper{
+    flex-wrap: wrap;
+  }
+}

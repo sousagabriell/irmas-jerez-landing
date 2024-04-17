@@ -17,7 +17,6 @@
 </head>
 
 <body>
-    <div class="w-100">
     <nav class="navbar navbar-expand-lg bg-body-tertiary nav-jerez">
         <div class="container">                                                                                                                                   
             <a class="navbar-brand" href="./index.html"><img src="./assets/global-assets/logo.png" alt=""
@@ -47,7 +46,6 @@
             </div>
         </div>
     </nav>
-</div>
     <div class="container-fluid jumbotron">
         <div class="logo-jumbotron justify-content-center d-flex w-100">
             <img src="./assets/global-assets/logo2.png" alt="" width="350rem">
@@ -66,7 +64,7 @@
             </div>
         </div>
         <div class="w-100 d-flex justify-content-center mt-3">
-            <img src="./assets/global-assets/logo-reduzido.png" alt="" width="30rem%">
+            <img src="./assets/global-assets/logo-reduzido.png" alt="" width="30rem">
         </div>
     </div>
     <div class="container mt-5 py-5">
@@ -244,9 +242,9 @@
                     <p class="text-white titulo-footer mb-2 mt-2">(011) 2970-1900</p>
                     <p class="text-white titulo-footer mb-2">atendimento@clinicajerez.com.br</p>
                     <div class="d-flex">
-                        <img src="./assets/home/instagram-icon.png" alt="" class="me-2">
-                        <img src="./assets/home/tiktok-icon.png" alt="" class="me-2">
-                        <img src="./assets/home/youtube-icon.png" alt="">
+                        <a href="https://www.instagram.com/clinicajerez/" target="_blank"><img src="./assets/home/instagram-icon.png" alt="" class="me-2"></a>
+                        <a href="https://www.tiktok.com/@irmasjerez" target="_blank"><img src="./assets/home/tiktok-icon.png" alt="" class="me-2"></a>
+                        <a href="https://www.youtube.com/@irmasjerez" target="_blank"><img src="./assets/home/youtube-icon.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -285,14 +283,14 @@
     Tenho a seguinte dúvida: ${duvida}
     Aguardo o retorno. Obrigado(a)!`;
 
-        const whatsappNumber = '11960625408';
+        const whatsappNumber = '5511945541515';
         const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(mensagem)}`;
         window.open(url, '_blank');
     }
 
     function comecarAtendimento() {
         const mensagem = `Olá! Cheguei aqui através do site e estou interessado(a) nos serviços da clínica e gostaria de obter mais informações. Podem me ajudar?`;
-        const whatsappNumber = '11960625408';
+        const whatsappNumber = '5511945541515';
         const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(mensagem)}`;
         window.open(url, '_blank');
     }

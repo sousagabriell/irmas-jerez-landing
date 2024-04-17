@@ -127,5 +127,13 @@
     border: 2px solid #B35F54;
 }
 ul {
-    list-style-type: disc; /* Define o estilo dos bullets como disc */
+    list-style-type: disc; 
+}
+@media (max-width: 450px) {
+    .jumbotron{
+        padding-top: 10rem !important;
+    }
+    .subtitulo-chamada{
+        font-size: 3rem !important;
+    }
 }

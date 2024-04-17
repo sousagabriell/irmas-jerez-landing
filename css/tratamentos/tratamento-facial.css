@@ -43,3 +43,15 @@
     background-color: #b35f54 !important;
     color: white;
 }
+@media (max-width: 986px) {
+    .jumbotron{
+        margin-top: 3rem;
+        padding-top: 0.5rem !important;
+    }
+    .nav-jerez{
+        margin-top: -3rem !important;
+    }
+    .subtitulo-chamada{
+        font-size: 2em !important;
+    }
+}
