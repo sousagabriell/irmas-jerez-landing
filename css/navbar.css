@@ -2,12 +2,22 @@
     height: 4.7em !important;
     background-color: #9F5F54 !important;
 }
-.nav-jerez{
-    height: 4.7em !important;
-    background-color: #9F5F54 !important;
-}
 ul > li > a{
     font-family: 'Quasimoda';
     color: white !important;
     font-size: 1.1em !important;
+}
+
+@media (max-width: 991px) {
+    .nav-jerez{
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+    }
+    .btn-home{
+        width: 100% !important;
+    }
+    .jumbotron3{
+        background: #E8E8E0 !important;
+    }
 }

@@ -8,7 +8,7 @@
 }
 
 .jumbotron2 {
-    height: 48rem !important;
+    height: 48rem ;
     background-image: url('../../assets/home/backgroud-jumbotrom-2.png');
     background-repeat: no-repeat;
     background-position: center;

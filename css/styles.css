@@ -2,49 +2,142 @@
     font-family: Quasimoda;
     src: url('../fonts/quasimoda-regular.otf');
 }
+
 @font-face {
     font-family: FutuHV;
     src: url('../fonts/futuhv.ttf');
 }
+
 @font-face {
     font-family: ScotchDisplay;
     src: url('../fonts/scotchdisplay-medium.ttf');
 }
+
 @font-face {
     font-family: FutuRegular;
     src: url('../fonts/futuran.ttf');
 }
+
 @font-face {
     font-family: FutuIta;
     src: url('../fonts/futurami.ttf');
 }
+
 @font-face {
     font-family: FutuM;
     src: url('../fonts/futuram.ttf');
 }
-.bg-footer-infos{
+
+.bg-footer-infos {
     background-color: #B35F54;
 }
-.text-futu{
+
+.text-futu {
     font-family: FutuRegular;
     font-size: 1.1em;
     text-align: justify;
     color: #2C3B39;
 }
-.text-futu-no-justify{
+
+.text-futu-no-justify {
     font-family: FutuRegular;
     font-size: 1.1em;
     color: #2C3B39;
 }
-.card{
+
+.card {
     border-radius: 0 !important;
 }
+
 ::placeholder {
     font-family: "FutuIta", sans-serif;
     font-size: 1.2em;
     color: #6D6D6D !important;
 }
-.btn-footer:hover{
+
+.btn-footer:hover {
     background-color: #978f81 !important;
     color: white;
+}
+
+.navbar-items {
+    display: flex;
+    justify-content: end;
+}
+
+@media (max-width: 991px) {
+    .navbar-items {
+        background-color: #9F5F54 !important;
+        display: flex;
+        justify-content: start;
+        width: 100% !important;
+        margin-top: 1rem;
+    }
+    .navbar-nav{
+        width: 100% !important;
+    }
+    .nav-item{
+        border-bottom: 1px solid #000;
+    }
+    .navbar-items > ul > li {
+        margin: 0 !important;
+        padding-left: 1em;
+    }
+    .card-faq{
+        margin-right: 0 !important;
+        z-index: 0;
+        position: initial;
+    }
+    .img-logo-circular{
+        height: 20em !important;
+    }
+    .btn-whatsapp{
+        display: none;
+    }
+    .btn-jumbotron{
+        width: 65% !important;
+    }
+    .img-whatsapp{
+        position: fixed !important;
+        margin-top: 5rem !important;
+    }
+    .jumbotron3{
+        padding-top: 5rem !important;
+        height: 38rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .jumbotron2{
+        padding-top: 2rem !important;
+        height: 60rem !important;
+    }
+}
+@media (max-width: 450px) {
+    .titulos-home{
+        font-size: 3rem !important;
+    }
+    .div-responsiva{
+        width: 90% !important;
+    }
+    .titulo-depoimentos{
+        font-size: 3rem !important;
+    }
+    .titulo-home-pilares{
+        font-size: 3rem !important;
+        text-align: center;
+    }
+    .btn-jumbotron{
+        width: 80% !important;
+    }
+    .card-faq{
+        padding-right: 0 !important;
+    }
+    .titulos-home{
+        text-align: center;
+    }
+    .titulo-home-chamada{
+        text-align: center;
+        margin-top: 1rem !important;
+    }
 }
