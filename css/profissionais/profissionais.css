@@ -40,11 +40,11 @@
 }
 
 .img-whatsapp {
-    position: absolute;
-    z-index: 999;
+    position: fixed;
+    z-index: 99999;
     margin-top: -8rem;
     cursor: pointer;
-  }
+}
 .chamada{
     font-family: "FutuIta";
     font-size: 2em;
