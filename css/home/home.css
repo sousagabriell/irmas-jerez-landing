@@ -1,6 +1,6 @@
 .jumbotron {
     height: 50rem;
-    background-image: url('../../assets/home/backgroud-jumbotrom.png');
+    background-image: url('../../assets/home/DSC03103.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -68,15 +68,15 @@
 }
 
 .img-whatsapp {
-    position: absolute;
-    z-index: 999;
+    position: fixed;
+    z-index: 99999;
     margin-top: -8rem;
     cursor: pointer;
 }
 
 .titulos-home {
     font-family: ScotchDisplay;
-    font-size: 4em;
+    font-size: 3.3em;
     color: #B35F54;
 }
 
