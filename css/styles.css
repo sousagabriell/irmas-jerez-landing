@@ -91,6 +91,10 @@
         margin: 0 !important;
         padding-left: 1em;
     }
+    .navbar-items > ul > li > a {
+        margin: 0em !important;
+    }
+    
     .card-faq{
         margin-right: 0 !important;
         z-index: 0;

@@ -40,9 +40,9 @@
 }
 
 .img-whatsapp {
-    position: fixed;
+    position: absolute;
     z-index: 99999;
-    margin-top: -8rem;
+    margin-top: -7.5rem;
     cursor: pointer;
 }
 .chamada{

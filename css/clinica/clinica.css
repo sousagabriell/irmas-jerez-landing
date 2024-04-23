@@ -181,4 +181,10 @@
   .card-wrapper{
     flex-wrap: wrap;
   }
+  .card-wrapper{
+    padding: 0;
+  }
+  .card{
+    margin: 0 !important;
+  }
 }
