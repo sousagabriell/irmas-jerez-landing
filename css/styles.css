@@ -73,6 +73,12 @@
 .dropdown-item:hover{
     color: #9F5F54 !important;
 }
+._marketing-by{
+    display: none;
+}
+._logo{
+    display: none !important;
+}
 @media (max-width: 991px) {
     .navbar-items {
         background-color: #9F5F54 !important;
